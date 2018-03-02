@@ -168,5 +168,5 @@ _get_root() {
   done
   _debug "$domain not found"
 
-  return 1
+  return 0
 }
