@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
-
 #PowerDNS Mysql backend
 #
 #PDNS_Host="example.com"
