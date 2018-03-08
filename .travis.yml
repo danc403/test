@@ -19,6 +19,7 @@ addons:
     - debian-sid    # Grab shellcheck from the Debian repo (o_O)
     packages:
     - shellcheck
+    - mariadb-client-10.1
 
 install:
   - if [ "$TRAVIS_OS_NAME" = 'osx' ]; then
